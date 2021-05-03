@@ -1,0 +1,46 @@
+.options-side{
+    background-color: #fff;
+    width: 600px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    position: relative;
+}
+
+.card-general-options{
+    overflow: visible !important;
+    padding: 10px;
+    margin-bottom: 16px;
+}
+
+.component-block{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.add-btn{
+    align-self: center;
+}
+
+.options-fab{
+    position: absolute !important;
+    right: 20px;
+    bottom: 40px;
+}
+
+.drop-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 100%;
+    border: 2px dashed black;
+}
+
+.file-input{
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
